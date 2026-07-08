@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emma Graphics | Developer & Designer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#08111f;
+    color:#fff;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:rgba(8,17,31,.95);
+    backdrop-filter:blur(12px);
+    z-index:1000;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:800;
+    color:#00d9ff;
+}
+
+.logo span{
+    color:white;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#00d9ff;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:120px 10%;
+    background:linear-gradient(135deg,#08111f,#0f3b70,#0a223d);
+}
+
+.hero h1{
+    font-size:70px;
+    margin-bottom:10px;
+}
+
+.hero h1 span{
+    color:#00d9ff;
+}
+
+.hero h2{
+    font-size:30px;
+    margin-bottom:20px;
+    color:#cbd5e1;
+}
+
+.hero p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    color:#dbe4ee;
+    margin-bottom:35px;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#00d9ff;
+    color:#08111f;
+    text-decoration:none;
+    border-radius:40px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px #00d9ff;
+}
+
+section{
+    padding:90px 8%;
+}
+
+.title{
+    text-align:center;
+    color:#00d9ff;
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.about{
+    text-align:center;
+}
+
+.about p{
+    max-width:900px;
+    margin:auto;
+    line-height:1.9;
+    color:#cbd5e1;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#122235;
+    padding:30px;
+    border-radius:18px;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border:1px solid #00d9ff;
+}
+
+.card h3{
+    color:#00d9ff;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#d4d4d4;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:18px;
+}
+
+.skill{
+    background:#00d9ff;
+    color:#08111f;
+    text-align:center;
+    padding:18px;
+    border-radius:40px;
+    font-weight:bold;
+}
+
+.project{
+    background:#122235;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.project h3{
+    color:#00d9ff;
+    margin-bottom:15px;
+}
+
+.project button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    background:#00d9ff;
+    border-radius:30px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:12px;
+}
+
+footer{
+    background:#30089c;
+    text-align:center;
+    padding:25px;
+    color:#94a3b8;
+}
+</style>
+</head>
+<script src="script.js"></script>
+
+<body>
+
+<header>
+
+<div class="logo">
+Emma <span>Graphics</span>
+</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Emma <span>Graphics</span></h1>
+
+<h2 id="typing"></h2>
+
+<p>
+Welcome to Emma Graphics.
+
+I am a passionate Web Developer, Website Creator, Graphic Designer, and UI/UX Designer dedicated to building beautiful, responsive, and high-performing websites.
+
+I create business websites, portfolios, school systems, company websites, online stores, blogs, landing pages, and custom web applications. I also design professional logos, flyers, posters, social media graphics, business cards, banners, and complete brand identities.
+
+My mission is to transform ideas into modern digital experiences that help businesses grow online.
+</p>
+
+<a href="#contact" class="btn">Hire Me</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="about">
+
+<p>
+
+Emma Graphics is a creative digital brand specializing in website development, web design, graphic design, and digital branding.
+
+I combine creativity with modern technology to deliver websites that are responsive, secure, fast, and visually impressive.
+
+Whether you're a startup, company, school, organization, or entrepreneur, I can help you establish a strong online presence with professional digital solutions.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Website Design</h3>
+<p>Professional responsive websites for every business.</p>
+</div>
+
+<div class="card">
+<h3>Web Development</h3>
+<p>HTML, CSS, JavaScript, PHP, MySQL, React and more.</p>
+</div>
+
+<div class="card">
+<h3>Graphic Design</h3>
+<p>Logos, Flyers, Posters, Business Cards and Branding.</p>
+</div>
+
+<div class="card">
+<h3>UI/UX Design</h3>
+<p>Modern interfaces with excellent user experience.</p>
+</div>
+
+<div class="card">
+<h3>E-Commerce</h3>
+<p>Professional online shopping websites.</p>
+</div>
+
+<div class="card">
+<h3>Website Maintenance</h3>
+<p>Security updates, backups and optimization.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+<div class="skill">JavaScript</div>
+<div class="skill">React</div>
+<div class="skill">PHP</div>
+<div class="skill">Python</div>
+<div class="skill">MySQL</div>
+<div class="skill">WordPress</div>
+<div class="skill">Figma</div>
+<div class="skill">Adobe Photoshop</div>
+<div class="skill">Adobe Illustrator</div>
+<div class="skill">Git & GitHub</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">Featured Projects</h2>
+
+<div class="grid">
+
+<div class="project">
+<h3>Business Website</h3>
+<p>Modern responsive company website.</p>
+<button>Live Demo</button>
+</div>
+
+<div class="project">
+<h3>School Management System</h3>
+<p>Complete education management platform.</p>
+<button>Live Demo</button>
+</div>
+
+<div class="project">
+<h3>Online Store</h3>
+<p>Professional e-commerce website.</p>
+<button>Live Demo</button>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact Me</h2>
+
+<div class="contact">
+
+<p>📧 Email: emilymutheu6605@gmail.com</p>
+
+<p>📱 Phone: +254 792 512 614</p>
+<a class="whatsapp-btn" href="https://wa.me/254792512614" target="_blank">
+    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+</a>
+
+<p>📍 Kenya</p>
+
+<a class="btn" href="emilymutheu6605@gmail.com">Send Email</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Emma Graphics | Web Developer | Website Designer | Graphic Designer | UI/UX Designer
+</p>
+
+</footer>
+
+<script>
+
+const words=[
+"Web Developer",
+"Website Creator",
+"Graphic Designer",
+"UI/UX Designer",
+"Frontend Developer",
+"Creative Freelancer"
+];
+
+let i=0;
+
+function changeText(){
+document.getElementById("typing").innerHTML=words[i];
+i=(i+1)%words.length;
+}
+
+changeText();
+
+setInterval(changeText,2000);
+
+</script>
+
+</body>
+</html>
